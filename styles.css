@@ -123,15 +123,12 @@ ul {
   height: 100%;
   width: 100%;
 }
-
-@media (min-width: 576px) {
-  #card {
-    width: 550px;
-    height: 400px;
+@media(min-width:576px){
+ #card{
+    height:400px;
+    width:550px;
   }
-
-  #bottom-left-section,
-  #bottom-right-section {
-    width: 50%;
+  #bottom-right-section, #bottom-left-section {
+    width:50%;
   }
 }
