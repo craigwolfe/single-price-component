@@ -7,6 +7,7 @@ html {
 
 body {
   padding: 20px;
+  background-color: #e5eff5;
 }
 
 h2,
@@ -25,6 +26,8 @@ p {
   box-shadow: 2px 3px 7px 0px rgba(0, 0, 0, 0.35);
   border-radius: 5px;
   overflow: hidden;
+  margin: auto;
+  background-color: white;
 }
 
 #top-section {
@@ -123,12 +126,13 @@ ul {
   height: 100%;
   width: 100%;
 }
-@media(min-width:576px){
- #card{
-    height:400px;
-    width:550px;
+@media (min-width: 576px) {
+  #card {
+    height: 400px;
+    width: 600px;
   }
-  #bottom-right-section, #bottom-left-section {
-    width:50%;
+  #bottom-right-section,
+  #bottom-left-section {
+    width: 50%;
   }
 }
